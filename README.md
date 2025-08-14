@@ -1,73 +1,61 @@
 # Bankist – Landing Page 🏦
 
-A modern, performance-friendly landing page for a fictional bank.  
-Built with **HTML, CSS, and vanilla JavaScript**, focusing on smooth interactions, animations, and clean UI.
+A responsive and performance-optimised landing page for a fictional digital bank, built with modern HTML, CSS, and vanilla JavaScript.  
+This project focuses on smooth UI interactions, modern DOM techniques, and testability.
 
-🔗 **Live Demo:** [Bankist Landing Page](https://gtwb.github.io/Bankist_Landig_page/)
-
----
-
-## ✨ Features
-
-- Modal dialog for **Sign Up / Learn More**
-- **Smooth scrolling** to sections
-- Page navigation with **event delegation** (efficient performance)
-- **Tabbed component** for operations/features
-- **Sticky navigation bar** with `IntersectionObserver`
-- **Reveal sections on scroll** (progressive disclosure)
-- **Lazy-loading images** (`data-src` swap for performance)
-- **Slider/Carousel** with:
-  - Arrow key navigation
-  - Dots for slide control
-- **Navigation fade effect** on hover
+🔗 **Live Demo**: https://gtwb.github.io/Bankist_Landig_page  
+📁 **GitHub Repo**: https://github.com/GTWB/Bankist_Landig_page
 
 ---
 
-## 🧱 Tech Stack
+## 🚀 Features
 
-- **HTML5** (semantic structure)
-- **CSS3** (Flexbox/Grid, custom properties)
-- **JavaScript ES6+**
-  - `IntersectionObserver` API
-  - Event delegation
-- **No frameworks** required
-
----
-
-## 🚀 Getting Started
-
-### Option 1 – Open locally
-
-1. Clone/download the repository.
-2. Open `index.html` directly in your browser.
-
-### Option 2 – Run with Live Server (recommended)
-
-If you use VS Code:
-
-1. Install the extension **Live Server**.
-2. Right-click `index.html` → **Open with Live Server**.
+- Modal popup with open/close animation
+- Smooth scrolling and section navigation
+- Sticky navigation bar (via IntersectionObserver)
+- Reveal sections on scroll
+- Lazy-loaded images for performance
+- Fully functional slider with dots & arrow navigation
+- Event delegation for scalable interactivity
 
 ---
 
-## 🔧 Key Implementation Details
+## 🧪 QA & Automation Testing (In Progress)
 
-- **Navigation fade effect:** reduces opacity of sibling links on hover.
-- **Sticky navbar:** observes `.header` and toggles `.sticky`.
-- **Section reveal:** hides sections with `.section--hidden`, reveals on scroll.
-- **Lazy images:** swap `src` from `data-src` and remove `.lazy-img` after load.
-- **Tabs:** toggle `.operations__content--active` with `data-tab`.
-- **Slider:** moves slides with `translateX(%)`; synced with dot navigation.
+This project is currently being prepared for **Cypress end-to-end automation**.
 
----
+Planned test coverage includes:
 
-## 🙏 Acknowledgements
+- Modal interaction
+- Navigation functionality
+- Lazy-loading images and scroll reveals
+- Slider logic and responsiveness
 
-Inspired by the **Bankist project** in Jonas Schmedtmann’s JavaScript course.  
-Extended and adapted for practice and learning purposes.
+A `/cypress` directory will be added to the repo with full test scripts once automation is implemented.
 
 ---
 
-## 📜 License
+## 🛠️ Tech Stack
 
-MIT License – free to use, modify, and distribute.
+- **HTML5** – Semantic and accessible structure
+- **CSS3** – Flexbox, Grid, variables, animations
+- **JavaScript (ES6+)** – Clean, modular, event-driven
+- **IntersectionObserver API** – For scroll-based features
+
+---
+
+## 📚 Learning Outcomes
+
+- Practised building a modern UI with no frameworks
+- Applied advanced DOM manipulation techniques
+- Prepared structure and logic for automation testing
+- Strengthened focus on performance and UX best practices
+
+---
+
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).
+Feel free to use, modify, and share.
+
+---
