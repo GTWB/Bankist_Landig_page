@@ -61,15 +61,6 @@ If you use VS Code:
 
 ---
 
-## 📈 Roadmap / Improvements
-
-- Add ARIA roles and `aria-controls` for better accessibility in tabs.
-- Implement **focus trapping** inside the modal.
-- Add swipe support for the slider on mobile devices.
-- Optimise assets (e.g. use `.webp` images).
-
----
-
 ## 🙏 Acknowledgements
 
 Inspired by the **Bankist project** in Jonas Schmedtmann’s JavaScript course.  
